@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik';
+}
+
+.container {
+    max-width: 288px;
+    margin: 0 auto;
+}
+
+.hamburger {
+    margin-top: 27px;
+    border: none;
+    background-color: white;
+}
+
+.hamburger_item {
+    display: block;
+    width: 30px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 6px;
+}
+
+.hamburger_item:last-child {
+    margin-bottom: 0;
+}
+
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_star {
+    display: flex;
+    align-items: flex-start;
+    border: 1.32px solid rgba(253, 212, 70, 1);
+    border-radius: 6.62069px;
+    padding: 7px;
+    margin-bottom: 30px;
+}
+
+.card_name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 8px;
+    color: #000000;
+}
+
+.check_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    color: #FF9900;
+}
+
+.star_photo {
+    margin-right: 7px;
+}
+
+.card_check {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.card_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 9px;
+    color: #000000;
+}
+
+.img_logo {
+    margin-bottom: 30px;
+}
+
+.card_text {
+    margin-bottom: 2px;
+}
+
+.card_text:nth-child(1) {
+    margin-bottom: 1px;
+}
+
+.card_text>span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9px;
+    text-decoration-line: underline;
+}
+
+.input_search {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    height: 40px;
+    width: 100%;
+    background: url(img/зачокпоиска.png) no-repeat;
+    background-position: 20px center;
+    padding-left: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+.select_filtrs {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 118px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    appearance: none;
+    background: url(img/Polygon\ 1.png) no-repeat right;
+    background-position: 98px center;
+    padding-left: 13px;
+    margin-right: 7px;
+}
+
+.select_second {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 159px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    appearance: none;
+    background: url(img/Vector\ \(6\).png) no-repeat right;
+    background-position: 134px center;
+    padding-left: 13px;
+    margin-bottom: 20px;
+}
+
+.card_item {
+    height: 275px;
+    width: 136px;
+    padding: 5px;
+    border: 0.435897px solid rgba(48, 47, 46, 0.7);
+    margin-bottom: 20px;
+}
+
+.item_title {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    color: #000000;
+    line-height: 20px;
+}
+
+.checker_photo {
+    height: 30.5px;
+    width: 30.5px;
+    margin-right: 3.5px;
+}
+
+.checker {
+    display: flex;
+}
+
+.checker_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+}
+
+.card_rare {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rare_title,
+.price_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 16px;
+}
+
+.rare_container {
+    border: 0.87px solid #EC851A;
+    border-radius: 4.35897px;
+    height: 13px;
+    width: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rare_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+}
+
+.price_btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 17px;
+    background: #FDD446;
+    border-radius: 4.35897px;
+    height: 14px;
+    width: 48px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.card_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rare_container {
+    margin-bottom: 7px;
+}
+
+.card_btn {
+    display: block;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #000000;
+    background: linear-gradient(90deg, #FDD446 0%, #F79B47 100%);
+    border-radius: 8px;
+    height: 23px;
+    width: 115px;
+    border: none;
+    margin: 0 auto;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.circle:nth-child(1) {
+    position: absolute;
+    width: 153.92px;
+    height: 141.35px;
+    left: -43px;
+    top: 246px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(38.0988px);
+    z-index: -1;
+}
+
+.circle:nth-child(2) {
+    position: absolute;
+    width: 221.62px;
+    height: 203.53px;
+    left: 204px;
+    top: 850px;
+    background: rgba(253, 212, 70, 0.4);
+    filter: blur(54.8558px);
+    z-index: -1;
+}
+
+.circle:nth-child(3) {
+    position: absolute;
+    width: 293.42px;
+    height: 87.09px;
+    left: -101px;
+    top: 1177px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(36.0348px);
+    z-index: -1;
+}
+
+.circle:nth-child(4) {
+    position: absolute;
+    width: 303.96px;
+    height: 90.21px;
+    left: 179px;
+    top: 1756px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(37.3299px);
+    z-index: -1;
+}
+
+.circle:nth-child(5) {
+    position: absolute;
+    width: 153.92px;
+    height: 141.35px;
+    left: -36px;
+    top: 2320px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(38.0988px);
+    z-index: -1;
+}
+
+.circle:nth-child(6) {
+    position: absolute;
+    width: 303.96px;
+    height: 90.21px;
+    left: 173px;
+    top: 2934px;
+    background: rgba(253, 212, 70, 0.3);
+    filter: blur(37.3299px);
+    z-index: -1;
+}
+
+.pages_container {
+    display: flex;
+    width: 258px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.arrow {
+    border: none;
+    background: none;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #000000;
+}
+
+
+.number {
+    border: none;
+    background: none;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+    width: 40px;
+    height: 40px;
+    color: #000000;
+}
+
+.active {
+    background: #FDD446;
+    border-radius: 30px;
+}
+
+footer {
+    background: #FDD446;
+}
+
+.circle:nth-child(7) {
+    position: absolute;
+    width: 498px;
+    height: 257.35px;
+    left: -95px;
+    top: 4143px;
+    background: rgba(253, 212, 70, 0.5);
+    filter: blur(123.267px);
+    z-index: -1;
+}
+
+.footer_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+.footer_title:last-child {
+    margin-bottom: 0;
+}
+
+.footer_titles {
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+
+.footer_container {
+    display: flex;
+}
+
+.footer_img {
+    height: 44px;
+    width: 49px;
+    margin-top: 31px;
+    margin-right: 20px;
+}
